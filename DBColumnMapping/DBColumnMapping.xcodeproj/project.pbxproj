@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000625511909523D00104D5B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000625501909523D00104D5B /* Cocoa.framework */; };
+		0006255B1909523D00104D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000625591909523D00104D5B /* InfoPlist.strings */; };
+		0006255D1909523D00104D5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0006255C1909523D00104D5B /* main.m */; };
+		000625611909523E00104D5B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0006255F1909523E00104D5B /* Credits.rtf */; };
+		000625641909523E00104D5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000625631909523E00104D5B /* AppDelegate.m */; };
+		000625671909523E00104D5B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000625651909523E00104D5B /* MainMenu.xib */; };
+		000625691909523E00104D5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000625681909523E00104D5B /* Images.xcassets */; };
+		000625701909523E00104D5B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0006256F1909523E00104D5B /* XCTest.framework */; };
+		000625711909523E00104D5B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000625501909523D00104D5B /* Cocoa.framework */; };
+		000625791909523E00104D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000625771909523E00104D5B /* InfoPlist.strings */; };
+		0006257B1909523E00104D5B /* DBColumnMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0006257A1909523E00104D5B /* DBColumnMappingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000625721909523E00104D5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000625451909523D00104D5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0006254C1909523D00104D5B;
+			remoteInfo = DBColumnMapping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0006254D1909523D00104D5B /* DBColumnMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBColumnMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000625501909523D00104D5B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		000625531909523D00104D5B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		000625541909523D00104D5B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		000625551909523D00104D5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000625581909523D00104D5B /* DBColumnMapping-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBColumnMapping-Info.plist"; sourceTree = "<group>"; };
+		0006255A1909523D00104D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0006255C1909523D00104D5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0006255E1909523D00104D5B /* DBColumnMapping-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBColumnMapping-Prefix.pch"; sourceTree = "<group>"; };
+		000625601909523E00104D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		000625621909523E00104D5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		000625631909523E00104D5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		000625661909523E00104D5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		000625681909523E00104D5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0006256E1909523E00104D5B /* DBColumnMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBColumnMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0006256F1909523E00104D5B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		000625761909523E00104D5B /* DBColumnMappingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DBColumnMappingTests-Info.plist"; sourceTree = "<group>"; };
+		000625781909523E00104D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0006257A1909523E00104D5B /* DBColumnMappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBColumnMappingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0006254A1909523D00104D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000625511909523D00104D5B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0006256B1909523E00104D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000625711909523E00104D5B /* Cocoa.framework in Frameworks */,
+				000625701909523E00104D5B /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000625441909523D00104D5B = {
+			isa = PBXGroup;
+			children = (
+				000625561909523D00104D5B /* DBColumnMapping */,
+				000625741909523E00104D5B /* DBColumnMappingTests */,
+				0006254F1909523D00104D5B /* Frameworks */,
+				0006254E1909523D00104D5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0006254E1909523D00104D5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0006254D1909523D00104D5B /* DBColumnMapping.app */,
+				0006256E1909523E00104D5B /* DBColumnMappingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0006254F1909523D00104D5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000625501909523D00104D5B /* Cocoa.framework */,
+				0006256F1909523E00104D5B /* XCTest.framework */,
+				000625521909523D00104D5B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000625521909523D00104D5B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000625531909523D00104D5B /* AppKit.framework */,
+				000625541909523D00104D5B /* CoreData.framework */,
+				000625551909523D00104D5B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		000625561909523D00104D5B /* DBColumnMapping */ = {
+			isa = PBXGroup;
+			children = (
+				000625621909523E00104D5B /* AppDelegate.h */,
+				000625631909523E00104D5B /* AppDelegate.m */,
+				000625651909523E00104D5B /* MainMenu.xib */,
+				000625681909523E00104D5B /* Images.xcassets */,
+				000625571909523D00104D5B /* Supporting Files */,
+			);
+			path = DBColumnMapping;
+			sourceTree = "<group>";
+		};
+		000625571909523D00104D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000625581909523D00104D5B /* DBColumnMapping-Info.plist */,
+				000625591909523D00104D5B /* InfoPlist.strings */,
+				0006255C1909523D00104D5B /* main.m */,
+				0006255E1909523D00104D5B /* DBColumnMapping-Prefix.pch */,
+				0006255F1909523E00104D5B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		000625741909523E00104D5B /* DBColumnMappingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0006257A1909523E00104D5B /* DBColumnMappingTests.m */,
+				000625751909523E00104D5B /* Supporting Files */,
+			);
+			path = DBColumnMappingTests;
+			sourceTree = "<group>";
+		};
+		000625751909523E00104D5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000625761909523E00104D5B /* DBColumnMappingTests-Info.plist */,
+				000625771909523E00104D5B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0006254C1909523D00104D5B /* DBColumnMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0006257E1909523E00104D5B /* Build configuration list for PBXNativeTarget "DBColumnMapping" */;
+			buildPhases = (
+				000625491909523D00104D5B /* Sources */,
+				0006254A1909523D00104D5B /* Frameworks */,
+				0006254B1909523D00104D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBColumnMapping;
+			productName = DBColumnMapping;
+			productReference = 0006254D1909523D00104D5B /* DBColumnMapping.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0006256D1909523E00104D5B /* DBColumnMappingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000625811909523E00104D5B /* Build configuration list for PBXNativeTarget "DBColumnMappingTests" */;
+			buildPhases = (
+				0006256A1909523E00104D5B /* Sources */,
+				0006256B1909523E00104D5B /* Frameworks */,
+				0006256C1909523E00104D5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000625731909523E00104D5B /* PBXTargetDependency */,
+			);
+			name = DBColumnMappingTests;
+			productName = DBColumnMappingTests;
+			productReference = 0006256E1909523E00104D5B /* DBColumnMappingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000625451909523D00104D5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Black Pearl Info Tech";
+				TargetAttributes = {
+					0006256D1909523E00104D5B = {
+						TestTargetID = 0006254C1909523D00104D5B;
+					};
+				};
+			};
+			buildConfigurationList = 000625481909523D00104D5B /* Build configuration list for PBXProject "DBColumnMapping" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000625441909523D00104D5B;
+			productRefGroup = 0006254E1909523D00104D5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0006254C1909523D00104D5B /* DBColumnMapping */,
+				0006256D1909523E00104D5B /* DBColumnMappingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0006254B1909523D00104D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0006255B1909523D00104D5B /* InfoPlist.strings in Resources */,
+				000625691909523E00104D5B /* Images.xcassets in Resources */,
+				000625611909523E00104D5B /* Credits.rtf in Resources */,
+				000625671909523E00104D5B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0006256C1909523E00104D5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000625791909523E00104D5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000625491909523D00104D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000625641909523E00104D5B /* AppDelegate.m in Sources */,
+				0006255D1909523D00104D5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0006256A1909523E00104D5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0006257B1909523E00104D5B /* DBColumnMappingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000625731909523E00104D5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0006254C1909523D00104D5B /* DBColumnMapping */;
+			targetProxy = 000625721909523E00104D5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000625591909523D00104D5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0006255A1909523D00104D5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0006255F1909523E00104D5B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000625601909523E00104D5B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		000625651909523E00104D5B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000625661909523E00104D5B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		000625771909523E00104D5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000625781909523E00104D5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0006257C1909523E00104D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0006257D1909523E00104D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0006257F1909523E00104D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBColumnMapping/DBColumnMapping-Prefix.pch";
+				INFOPLIST_FILE = "DBColumnMapping/DBColumnMapping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		000625801909523E00104D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBColumnMapping/DBColumnMapping-Prefix.pch";
+				INFOPLIST_FILE = "DBColumnMapping/DBColumnMapping-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		000625821909523E00104D5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBColumnMapping.app/Contents/MacOS/DBColumnMapping";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBColumnMapping/DBColumnMapping-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DBColumnMappingTests/DBColumnMappingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		000625831909523E00104D5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DBColumnMapping.app/Contents/MacOS/DBColumnMapping";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBColumnMapping/DBColumnMapping-Prefix.pch";
+				INFOPLIST_FILE = "DBColumnMappingTests/DBColumnMappingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000625481909523D00104D5B /* Build configuration list for PBXProject "DBColumnMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0006257C1909523E00104D5B /* Debug */,
+				0006257D1909523E00104D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0006257E1909523E00104D5B /* Build configuration list for PBXNativeTarget "DBColumnMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0006257F1909523E00104D5B /* Debug */,
+				000625801909523E00104D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		000625811909523E00104D5B /* Build configuration list for PBXNativeTarget "DBColumnMappingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000625821909523E00104D5B /* Debug */,
+				000625831909523E00104D5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000625451909523D00104D5B /* Project object */;
+}
