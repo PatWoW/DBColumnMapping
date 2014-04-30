@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  DBColumnMapping
+//  DBColumnMapping V1.0
 //
 //  Created by Muthu Rama on 25/04/2014.
 //  Copyright (c) 2014 Black Pearl Info Tech. All rights reserved.
@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DBLogDelegate.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate,DBLogDelegate>
 
